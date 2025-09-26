@@ -13,15 +13,27 @@ Este projeto foi desenvolvido como parte do curso da Rocketseat e consiste em um
 - **Pytest** - Framework de testes
 - **Requests** - Biblioteca para requisições HTTP (testes)
 
+## 📦 Dependências
+
+As dependências do projeto estão listadas no arquivo `requirements.txt`:
+
+```
+flask
+pytest  
+requests
+```
+
 ## 📁 Estrutura do Projeto
 
 ```
 tasks_flask_crud/
-├── app.py                 # Aplicação principal Flask
+├── app.py                # Aplicação principal Flask
 ├── models/
-│   └── task.py           # Modelo da classe Task
-├── test_requests.py      # Testes automatizados
-└── README.md            # Documentação do projeto
+│   └── task.py          # Modelo da classe Task
+├── tests.py             # Testes automatizados
+├── requirements.txt     # Dependências do projeto
+├── .gitignore          # Arquivos ignorados pelo Git
+└── README.md           # Documentação do projeto
 ```
 
 ## 🛠️ Funcionalidades
@@ -99,7 +111,7 @@ cd tasks_flask_crud
 
 2. Instale as dependências:
 ```bash
-pip install flask pytest requests
+pip install -r requirements.txt
 ```
 
 3. Execute a aplicação:
@@ -122,7 +134,7 @@ python app.py
 
 2. Em outro terminal, execute os testes:
 ```bash
-pytest test_requests.py -v
+pytest tests.py -v
 ```
 
 ### Testes Incluídos:
