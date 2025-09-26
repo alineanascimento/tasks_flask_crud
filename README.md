@@ -206,6 +206,5 @@ Este projeto aborda conceitos importantes como:
 
 Este projeto foi desenvolvido para fins educacionais como parte do curso da Rocketseat. Sinta-se à vontade para fazer fork, sugerir melhorias ou usar como base para seus próprios projetos!
 
----
 
-**Desenvolvido com ❤️ durante o curso da Rocketseat**
+
